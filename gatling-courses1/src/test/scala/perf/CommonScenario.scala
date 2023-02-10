@@ -28,8 +28,8 @@ class CommonScenario {
 
   val mainScenario = scenario("mainScenario")
     .feed(Feeders.users)
-    .feed(Depart.cities)
-    .feed(Arrive.arrive)
+    .feed(Feeders.cities)
+    .feed(Feeders.arrive)
     .exec(open)
     .exec(login)
 
