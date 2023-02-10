@@ -1,0 +1,4049 @@
+19:54:28.981 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675356868799,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@63a1a678, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4abf749f, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@5b19db84,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675356868805,90,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$386/988904418@3d50f364)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:54:25 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:54:29.059 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675356868799,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@63a1a678, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4abf749f, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@5b19db84,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675356865, path=/,true,false,1675356869051)))),52,OK,List(GroupBlock(List(open),1675356868805,150,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$386/988904418@3d50f364)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:54:25 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675356865; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 16:54:25 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.257 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675357061158,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@72b4ec53, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@262ad759,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357061159,55,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.257 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675357061109,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@740c98c1, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@4bc47ae4,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357061116,60,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.257 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675357061161,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@36c9297a, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@4c0b6558,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357061161,52,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.389 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675357061109,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@740c98c1, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@4bc47ae4,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357057, path=/,true,false,1675357061394)))),59,OK,List(GroupBlock(List(open),1675357061116,167,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357057; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 16:57:37 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.389 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675357061161,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@36c9297a, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@4c0b6558,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357057, path=/,true,false,1675357061394)))),59,OK,List(GroupBlock(List(open),1675357061161,161,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357057; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 16:57:37 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+19:57:41.426 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675357061158,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@2ac39e4a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@72b4ec53, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@262ad759,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357057, path=/,true,false,1675357061422)))),59,OK,List(GroupBlock(List(open),1675357061159,199,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$387/261650860@238262ba)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 16:57:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357057; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 16:57:37 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:32.594 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675357891741,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7a313091, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@38837ca4,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357891742,793,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:28 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:32.621 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675357891701,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@74e14931, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@5c25bf15,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357891705,880,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:28 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:32.621 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675357891744,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2b61f251, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@749334dc,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675357891744,874,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:28 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.192 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675357891701,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@74e14931, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@5c25bf15,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),2,OK,List(GroupBlock(List(open),1675357891705,1434,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357889; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.192 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675357891741,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7a313091, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@38837ca4,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),61,OK,List(GroupBlock(List(open),1675357891742,1365,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357889; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.192 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675357891744,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2b61f251, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@749334dc,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),2,OK,List(GroupBlock(List(open),1675357891744,1428,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675357889; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.686 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675357891744,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2b61f251, userSession -> 135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@749334dc,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),19,OK,List(GroupBlock(List(open),1675357891744,1902,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675357889
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675357889, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.733 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675357891741,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7a313091, userSession -> 135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@38837ca4,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),78,OK,List(GroupBlock(List(open),1675357891742,1898,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675357889
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675357889, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:11:33.733 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675357891701,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@4af9c62c, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@74e14931, userSession -> 135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@5c25bf15,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675357889, path=/,true,false,1675357893185)))),18,OK,List(GroupBlock(List(open),1675357891705,1967,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$399/688593710@63ab1b7)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675357889
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675357889, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:11:29 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:11:29 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.453138923zQiAzfHpiHAiDDDDtViiDpQtHccf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:49.945 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358209825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@6c4b67d2, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6713b7c6,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358209826,68,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:49.945 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358209828,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@261982c6, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@623ea26d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358209828,67,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:49.945 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358209787,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@216b901a, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@2f9ca70c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358209792,74,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.098 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358209787,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@216b901a, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@2f9ca70c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210092)))),53,OK,List(GroupBlock(List(open),1675358209792,205,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358206; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.098 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358209825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@6c4b67d2, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6713b7c6,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210092)))),53,OK,List(GroupBlock(List(open),1675358209826,198,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358206; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.100 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358209828,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@261982c6, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@623ea26d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210099)))),53,OK,List(GroupBlock(List(open),1675358209828,212,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358206; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.237 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358209825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@6c4b67d2, userSession -> 135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6713b7c6,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210092)))),68,OK,List(GroupBlock(List(open),1675358209826,321,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358206
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358206, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.267 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358209787,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@216b901a, userSession -> 135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@2f9ca70c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210092)))),67,OK,List(GroupBlock(List(open),1675358209792,367,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358206
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358206, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:16:50.268 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358209828,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@607e0af8, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@261982c6, userSession -> 135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@623ea26d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358206, path=/,true,false,1675358210099)))),55,OK,List(GroupBlock(List(open),1675358209828,376,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$398/688593710@521d654b)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358206
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358206, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:16:46 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:16:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.478817335zQiAzfQpVQVzzzzHtViiDpQffVf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:41.771 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358861594,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@20bddb17, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@72334d24,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358861598,92,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:41.771 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358861638,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2e4ced97, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@31f252b,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358861638,84,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:41.771 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358861635,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7349039b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@7951a216,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358861636,85,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:41.929 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358861594,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@20bddb17, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@72334d24,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358861924)))),52,OK,List(GroupBlock(List(open),1675358861598,232,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358858; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:42.013 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358861638,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2e4ced97, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@31f252b,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358862011)))),52,OK,List(GroupBlock(List(open),1675358861638,316,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358858; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:42.013 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358861635,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7349039b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@7951a216,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358862011)))),52,OK,List(GroupBlock(List(open),1675358861636,317,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:37 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358858; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:42.215 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358861594,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@20bddb17, userSession -> 135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@72334d24,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358861924)))),62,OK,List(GroupBlock(List(open),1675358861598,500,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358858
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358858, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:38 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:42.231 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358861635,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@7349039b, userSession -> 135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@7951a216,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358862011)))),54,OK,List(GroupBlock(List(open),1675358861636,532,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358858
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358858, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:38 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:27:42.232 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358861638,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6ebfd3c7, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@2e4ced97, userSession -> 135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@31f252b,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358858, path=/,true,false,1675358862011)))),54,OK,List(GroupBlock(List(open),1675358861638,533,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$427/1967617997@20c42157)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358858
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358858, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:27:38 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:27:38 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.53163224zQiAzzVpQAiDDDDDtViiDpQHVtf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.224 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358996092,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4bf8e18b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@720c83a5,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358996097,42,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.224 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358996141,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@775b7865, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@24cd8d32,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358996141,37,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.224 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358996138,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@63431269, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@e23c147,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/),0,OK,List(GroupBlock(List(open),1675358996139,35,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.513 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358996092,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4bf8e18b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@720c83a5,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),53,OK,List(GroupBlock(List(open),1675358996097,309,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358992; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.515 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358996138,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@63431269, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@e23c147,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),53,OK,List(GroupBlock(List(open),1675358996139,302,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358992; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.516 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358996141,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@775b7865, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@24cd8d32,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),49,OK,List(GroupBlock(List(open),1675358996141,307,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675358992; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.706 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358996138,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@63431269, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@e23c147,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),68,OK,List(GroupBlock(List(open),1675358996139,474,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358992, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.542486837zQiAzzcptzzzzzzHtViiDpQHti"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.705 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358996092,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4bf8e18b, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@720c83a5,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),67,OK,List(GroupBlock(List(open),1675358996097,483,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358992, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.542486837zQiAzzcptzzzzzzHtViiDpQHti"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.706 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358996141,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@775b7865, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@24cd8d32,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),61,OK,List(GroupBlock(List(open),1675358996141,483,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675358992, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:29:52 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.542486837zQiAzzcptzzzzzzHtViiDpQHti"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.922 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675358996141,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@775b7865, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@24cd8d32,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),72,OK,List(GroupBlock(List(open),1675358996707,211,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 129
+cookies=
+MSO=SID&1675358992, path=/
+formBody=
+userSession: 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti
+username: niklogin
+password: nikpassord
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was incorrect.  Prompt the user to fix password or sign-up...
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?username=niklogin&password=nikpassord" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="error.pl?error=badPassword" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.922 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675358996138,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@63431269, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@e23c147,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),83,OK,List(GroupBlock(List(open),1675358996707,209,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 129
+cookies=
+MSO=SID&1675358992, path=/
+formBody=
+userSession: 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti
+username: niklogin
+password: nikpassord
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was incorrect.  Prompt the user to fix password or sign-up...
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?username=niklogin&password=nikpassord" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="error.pl?error=badPassword" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:29:56.922 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675358996092,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@7bf4e12a, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@4bf8e18b, userSession -> 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@720c83a5,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675358992, path=/,true,false,1675358996508)))),80,OK,List(GroupBlock(List(open),1675358996707,209,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$426/1288135425@7c2cd681)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675358992
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 129
+cookies=
+MSO=SID&1675358992, path=/
+formBody=
+userSession: 135711.542486837zQiAzzcptzzzzzzHtViiDpQHti
+username: niklogin
+password: nikpassord
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:29:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was incorrect.  Prompt the user to fix password or sign-up...
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?username=niklogin&password=nikpassord" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="error.pl?error=badPassword" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:58.992 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360258833,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@29c62fa5, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@75683b3c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> niklogin, password -> nikpassword),0,OK,List(GroupBlock(List(open),1675360258874,64,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:58.992 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360258832,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@68787dc4, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6b1b1a7d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> jojo, password -> bean),0,OK,List(GroupBlock(List(open),1675360258873,65,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:58.992 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360258825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@73ca70a3, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@18ca53b2,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> niklogin, password -> nikpassword),0,OK,List(GroupBlock(List(open),1675360258835,68,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.202 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360258832,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@68787dc4, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6b1b1a7d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> bean),57,OK,List(GroupBlock(List(open),1675360258873,254,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360255; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.202 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360258833,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@29c62fa5, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@75683b3c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> nikpassword),57,OK,List(GroupBlock(List(open),1675360258874,257,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360255; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.202 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360258825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@73ca70a3, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@18ca53b2,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> nikpassword),57,OK,List(GroupBlock(List(open),1675360258835,261,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360255; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.488 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360258825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@73ca70a3, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@18ca53b2,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> nikpassword),66,OK,List(GroupBlock(List(open),1675360258835,525,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360255, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.489 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360258833,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@29c62fa5, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@75683b3c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> nikpassword),66,OK,List(GroupBlock(List(open),1675360258874,521,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360255, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.488 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360258832,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@68787dc4, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6b1b1a7d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197))), password -> bean),70,OK,List(GroupBlock(List(open),1675360258873,518,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360255, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:50:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.722 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360258825,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@73ca70a3, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@18ca53b2,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A, path=/,true,false,1675360259718))), password -> nikpassword),84,OK,List(GroupBlock(List(open),1675360259490,223,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 132
+cookies=
+MSO=SID&1675360255, path=/
+formBody=
+userSession: 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf
+username: niklogin
+password: nikpassword
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.723 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360258832,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@68787dc4, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@6b1b1a7d,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&bean&address2&city&username&jojo&hash&47&lastName&jojo%0A&address1&street&creditCard&&expDate&%0A, path=/,true,false,1675360259722))), password -> bean),88,OK,List(GroupBlock(List(open),1675360259490,228,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 121
+cookies=
+MSO=SID&1675360255, path=/
+formBody=
+userSession: 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf
+username: jojo
+password: bean
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&bean&address2&city&username&jojo&hash&47&lastName&jojo%0A&address1&street&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:50:59.723 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360258833,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@6b818f0d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@29c62fa5, userSession -> 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@75683b3c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360255, path=/,true,false,1675360259197), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A, path=/,true,false,1675360259722))), password -> nikpassword),84,OK,List(GroupBlock(List(open),1675360259490,228,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$440/1324262781@62197d52)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360255
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 132
+cookies=
+MSO=SID&1675360255, path=/
+formBody=
+userSession: 135711.644795464zQiAzzHpHcQVzzzHtViitpAAzDHf
+username: niklogin
+password: nikpassword
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:50:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.206 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360558506,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@574cf25b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@39f5b60a,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> niklogin, password -> nikpassword),0,OK,List(GroupBlock(List(open),1675360558516,596,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.206 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@5ae7000e, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@1ee62a5c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> niklogin, password -> nikpassword),0,OK,List(GroupBlock(List(open),1675360558554,593,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.206 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/webtours/: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@77757c41, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@44786964,None), gatling.http.referer -> http://webtours.load-test.ru:1090/webtours/, login -> jojo, password -> bean),0,OK,List(GroupBlock(List(open),1675360558553,594,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/webtours/
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Mon, 27 May 2013 12:20:22 GMT
+ETag: "b000000021242-16e-4ddb22c2e6d80"
+Accept-Ranges: bytes
+Content-Length: 366
+Content-Type: text/html
+
+body=
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.537 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@77757c41, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@44786964,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> bean),63,OK,List(GroupBlock(List(open),1675360558553,900,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360555; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.537 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@5ae7000e, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@1ee62a5c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),63,OK,List(GroupBlock(List(open),1675360558554,899,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360555; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.537 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/welcome.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360558506,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@574cf25b, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@39f5b60a,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),63,OK,List(GroupBlock(List(open),1675360558516,902,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/webtours/
+accept-encoding: gzip, deflate
+host: webtours.load-test.ru:1090
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1675360555; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 01-Feb-2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.823 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@5ae7000e, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@1ee62a5c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),78,OK,List(GroupBlock(List(open),1675360558554,1167,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.823 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@77757c41, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@44786964,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> bean),78,OK,List(GroupBlock(List(open),1675360558553,1168,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.824 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360558506,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@574cf25b, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@39f5b60a,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),78,OK,List(GroupBlock(List(open),1675360558516,1168,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/welcome.pl?signOff=true
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:55:59.957 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?page=menu&in=home: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@77757c41, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@44786964,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> bean),92,OK,List(GroupBlock(List(open),1675360558553,1298,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:55 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:56:00.010 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?page=menu&in=home: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@5ae7000e, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@1ee62a5c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),92,OK,List(GroupBlock(List(open),1675360558554,1350,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:56 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:56:00.010 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/nav.pl?page=menu&in=home: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360558506,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@574cf25b, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@39f5b60a,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530))), password -> nikpassword),93,OK,List(GroupBlock(List(open),1675360558516,1350,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+GET http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+host: webtours.load-test.ru:1090
+cookies=
+MSO=SID&1675360555, path=/
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 01 Feb 2023 17:55:56 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:56:00.249 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,3,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@5ae7000e, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@1ee62a5c,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A, path=/,true,false,1675360560245))), password -> nikpassword),94,OK,List(GroupBlock(List(open),1675360560009,234,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 130
+cookies=
+MSO=SID&1675360555, path=/
+formBody=
+userSession: 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf
+username: niklogin
+password: nikpassword
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:56 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:56:00.249 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,1,1675360558506,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@574cf25b, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@39f5b60a,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> niklogin, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A, path=/,true,false,1675360560245))), password -> nikpassword),95,OK,List(GroupBlock(List(open),1675360560009,234,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 130
+cookies=
+MSO=SID&1675360555, path=/
+formBody=
+userSession: 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf
+username: niklogin
+password: nikpassword
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:56 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Nikita&address2&54&username&niklogin&hash&78&lastName&Privalov%0A&address1&9%20jan&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+20:56:00.249 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+/cgi-bin/login.pl: OK 
+=========================
+Session:
+Session(mainScenario,2,1675360558513,Map(gatling.http.cache.baseUrl -> http://webtours.load-test.ru:1090, gatling.http.cache.dns -> io.gatling.http.cache.DnsCacheSupport$$anon$1@65fe3d5d, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@77757c41, userSession -> 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf, gatling.http.ssl.sslContexts -> SslContexts(io.netty.handler.ssl.OpenSslClientContext@44786964,None), gatling.http.referer -> http://webtours.load-test.ru:1090/cgi-bin/login.pl, login -> jojo, gatling.http.cookies -> CookieJar(Map(CookieKey(mso,webtours.load-test.ru,/) -> StoredCookie(MSO=SID&1675360555, path=/,true,false,1675360559530), CookieKey(mtuserinfo,webtours.load-test.ru,/) -> StoredCookie(MTUserInfo=firstName&bean&address2&city&username&jojo&hash&47&lastName&jojo%0A&address1&street&creditCard&&expDate&%0A, path=/,true,false,1675360560245))), password -> bean),95,OK,List(GroupBlock(List(open),1675360559957,283,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$439/237297104@273de1d6)
+=========================
+HTTP request:
+POST http://webtours.load-test.ru:1090/cgi-bin/login.pl
+headers=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Referer: http://webtours.load-test.ru:1090/cgi-bin/nav.pl?page=menu&in=home
+accept-encoding: gzip, deflate
+cookie: MSO=SID&1675360555
+origin: http://webtours.load-test.ru:1090
+host: webtours.load-test.ru:1090
+content-type: application/x-www-form-urlencoded
+content-length: 119
+cookies=
+MSO=SID&1675360555, path=/
+formBody=
+userSession: 135711.6690968zQiAzzipQHQVzzzHtViitpAVDiHf
+username: jojo
+password: bean
+login.x: 0
+login.y: 0
+JSFormSubmit: off
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Date: Thu, 02 Feb 2023 17:55:56 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&bean&address2&city&username&jojo&hash&47&lastName&jojo%0A&address1&street&creditCard&&expDate&%0A; path=/
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+body=
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
