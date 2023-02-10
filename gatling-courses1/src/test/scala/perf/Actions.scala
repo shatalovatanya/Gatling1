@@ -5,7 +5,7 @@ import io.gatling.http.Predef._
 
 object Actions {
 
-  //.................
+  //.................www
 
   val webtours = http("/webtours/")
     .get("/webtours/")
