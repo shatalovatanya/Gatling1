@@ -10,20 +10,28 @@ object CommonScenario{
 
 class CommonScenario {
 
-  val open = group( "open"){
+  val open = group("open") {
     exec(webtours)
       .exec(welcomePl)
       .exec(navPl)
-      .exec(navPllogin)
+      .exec(navPlmenu)
+      .exec(selectionPage)
+      .exec(welcomePLsearch)
+      .exec(navPlflights)
       .exec(reservationPl)
+      .exec(welcomeItinerary)
+      .exec(itinerary)
+      .exec(itineraryMenu)
       .exec(exit)
+      .exec(exitHome)
+
   }
+
   val login = group("open") {
     exec(loginPl)
-      .exec(reservationspl)
-      .exec(reservations)
+      .exec(ticketSelection)
+      .exec(flightSelection)
       .exec(ticket)
-
   }
 
   val mainScenario = scenario("mainScenario")
@@ -32,6 +40,5 @@ class CommonScenario {
     .feed(Feeders.arrive)
     .exec(open)
     .exec(login)
-
 }
 

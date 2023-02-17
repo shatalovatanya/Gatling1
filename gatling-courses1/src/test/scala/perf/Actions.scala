@@ -5,7 +5,7 @@ import io.gatling.http.Predef._
 
 object Actions {
 
-  //.................www
+  //.................
 
   val webtours = http("/webtours/")
     .get("/webtours/")
@@ -22,9 +22,8 @@ object Actions {
     .check(status is 200)
     .check(regex("""name="userSession" value="(.+)"""").saveAs( "userSession"))
 
-
   val loginPl = http("/cgi-bin/login.pl")
-      .post("/cgi-bin/login.pl")
+    .post("/cgi-bin/login.pl")
     .formParam("userSession","${userSession}")
     .formParam("username","${login}")
     .formParam("password","${password}")
@@ -33,10 +32,26 @@ object Actions {
     .formParam("JSFormSubmit","off")
     .check(status is 200)
 
-  val navPllogin = http("/cgi-bin/nav.pl?page=menu&in=home")
+  val navPlmenu = http("/cgi-bin/nav.pl?page=menu&in=home")
     .get("/cgi-bin/nav.pl")
-    .queryParam("page","menu")
-    .queryParam("in","home")
+    .queryParam("page", "menu")
+    .queryParam("in", "home")
+    .check(status is 200)
+
+  val selectionPage = http("/cgi-bin/login.pl?intro=true")
+    .get("/cgi-bin/login.pl")
+    .queryParam("intro", "true")
+    .check(status is 200)
+
+  val welcomePLsearch = http("/cgi-bin/welcome.pl?page=search")
+    .get("/cgi-bin/welcome.pl")
+    .queryParam("page", "search")
+    .check(status is 200)
+
+  val navPlflights = http("/cgi-bin/nav.pl?page=menu&in=flights")
+    .get("/cgi-bin/nav.pl")
+    .queryParam("page", "menu")
+    .queryParam("in", "flights")
     .check(status is 200)
 
   val reservationPl = http("/cgi-bin/reservations.pl?page=welcome")
@@ -44,7 +59,8 @@ object Actions {
     .queryParam("page", "welcome")
     .check(status is 200)
 
-  val reservationspl = http("/cgi-bin/reservations.pl")
+
+  val ticketSelection = http("/cgi-bin/reservations.pl")
     .post("/cgi-bin/reservations.pl")
     .formParam("advanceDiscount", "0")
     .formParam("depart", "${depart}")
@@ -60,22 +76,23 @@ object Actions {
     .formParam(".cgifields", "seatType")
     .formParam(".cgifields", "seatPref")
     .check(status is 200)
-    .check(regex("""name="outboundFlight" value="\d{3};[0-9]{1,3};\d{2}.\d{2}.\d{4}"""").saveAs( "outboundFlight"))
 
-  val reservations = http("/cgi-bin/reservations.pl")
+  val flightSelection = http("/cgi-bin/reservations.pl")
     .post("/cgi-bin/reservations.pl")
-    .formParam("outboundFlight", "${outboundFlight}")
+    .check(regex("""name="outboundFlight" value="[0-9]{3};[0-9]{3};\d{2}.\d{2}.\d{4}"""").saveAs( "outboundFlight"))
+    .formParam("outboundFlight", "${outboundFlight.random()}")
     .formParam("numPassengers", "1")
     .formParam("advanceDiscount", "0")
     .formParam("seatType", "Coach")
+    .formParam("seatPref", "None")
     .formParam("reserveFlights.x", "46")
     .formParam("reserveFlights.y", "14")
-    .formParam("seatPref", "None")
     .check(status is 200)
 
 
   val ticket = http("/cgi-bin/reservations.pl")
     .post("/cgi-bin/reservations.pl")
+    .check(regex("""name="outboundFlight" value="[0-9]{3};[0-9]{3};\d{2}.\d{2}.\d{4}"""").saveAs( "outboundFlight"))
     .formParam("firstName", "Tanya")
     .formParam("lastName", "Isaykina")
     .formParam("address1", "12")
@@ -87,7 +104,7 @@ object Actions {
     .formParam("numPassengers", "")
     .formParam("seatType", "Coach")
     .formParam("seatPref", "None")
-    .formParam("outboundFlight", "${outboundFlight}")
+    .formParam("outboundFlight", "${outboundFlight.random()}")
     .formParam("advanceDiscount", "0")
     .formParam("returnFlight", "")
     .formParam("JSFormSubmit", "off")
@@ -96,9 +113,29 @@ object Actions {
     .formParam(".cgifields", "saveCC")
     .check(status is 200)
 
-  val exit = http("/cgi-bin/cgi-bin/welcome.pl?signOff=1e")
-    .get("cgi-bin/cgi-bin/welcome.pl")
-    .queryParam("?signOf", "1e")
+  val welcomeItinerary = http("/cgi-bin/welcome.pl?page=itinerary")
+    .get("/cgi-bin/welcome.pl")
+    .queryParam("page", "itinerary")
+    .check(status is 200)
+
+  val itineraryMenu = http("/cgi-bin/nav.pl?page=menu&in=itinerary")
+    .get("/cgi-bin/nav.pl")
+    .queryParam("page", "menu")
+    .queryParam("in", "itinerary")
+    .check(status is 200)
+
+  val itinerary = http("/cgi-bin/itinerary.pl")
+    .get("/cgi-bin/itinerary.pl")
+    .check(status is 200)
+
+  val exit = http("/cgi-bin/cgi-bin/welcome.pl?signOff=1")
+    .get("/cgi-bin/welcome.pl")
+    .queryParam("signOf", "1")
+    .check(status is 200)
+
+  val exitHome = http("/cgi-bin/nav.pl?in=home")
+    .get("/cgi-bin/nav.pl")
+    .queryParam("in", "home")
     .check(status is 200)
 
 }

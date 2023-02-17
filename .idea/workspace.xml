@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b729404-b63b-4ecd-9cb9-d3b62878bfdf" name="Changes" comment="gatling1">
+    <list default="true" id="1b729404-b63b-4ecd-9cb9-d3b62878bfdf" name="Changes" comment="gatling2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/Arrive.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/CommonScenario.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/CommonScenario.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/Depart.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/Freeders.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/Freeders.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/TestSimulation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gatling-courses1/src/test/scala/perf/TestSimulation.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -63,7 +62,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/tisaykina/IdeaProjects/gatling2"
+    "last_opened_file_path": "C:/Users/tisaykina/IdeaProjects/gatling-courses1"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676024256447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gatling2">
+      <created>1676033582663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676033582663</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gatling" />
     <MESSAGE value="gatling1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gatling1" />
+    <MESSAGE value="gatling2" />
+    <option name="LAST_COMMIT_MESSAGE" value="gatling2" />
   </component>
 </project>

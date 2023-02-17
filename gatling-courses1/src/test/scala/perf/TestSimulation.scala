@@ -15,9 +15,8 @@ class TestSimulation extends Simulation {
 
   setUp(
     CommonScenario().inject(
-      rampUsersPerSec(0)to 2 during (4),
-      constantUsersPerSec(2)during(60)
-
+      constantConcurrentUsers(1).during(10), // 1
+      rampConcurrentUsers(2).to(10).during(60) // 2
     )
   ).protocols(httpProtocol)
 }
